@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="780" started-at="2023-02-10T22:58:33Z" finished-at="2023-02-10T22:58:33Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="780" started-at="2023-02-10T22:58:33Z" finished-at="2023-02-10T22:58:33Z">
+      <class name="assignment11.SampleTestDDT">
+        <test-method status="PASS" signature="sample(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:assignment11.SampleTestDDT@73846619]" name="sample" duration-ms="8" started-at="2023-02-10T22:58:33Z" data-provider="Sample" finished-at="2023-02-10T22:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kritika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[khurana]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method status="PASS" signature="sample(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:assignment11.SampleTestDDT@73846619]" name="sample" duration-ms="1" started-at="2023-02-10T22:58:33Z" data-provider="Sample" finished-at="2023-02-10T22:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amyra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[khera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[122.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method status="PASS" signature="sample(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:assignment11.SampleTestDDT@73846619]" name="sample" duration-ms="2" started-at="2023-02-10T22:58:33Z" data-provider="Sample" finished-at="2023-02-10T22:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajeev]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[khera]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[usa]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method status="PASS" signature="sample(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:assignment11.SampleTestDDT@73846619]" name="sample" duration-ms="2" started-at="2023-02-10T22:58:33Z" data-provider="Sample" finished-at="2023-02-10T22:58:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shubham]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[khurana]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[india]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[121.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- assignment11.SampleTestDDT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
