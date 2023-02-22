@@ -3,13 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assignment11.DDT_practice">
+      <class name="assignment11.Assignment13">
         <methods>
-          <include name="login"/>
+          <include name="Delete"/>
+          <include name="Login"/>
           <include name="setup"/>
-          <include name="teardown"/>
+          <include name="CreateCourse"/>
         </methods>
-      </class> <!-- assignment11.DDT_practice -->
+      </class> <!-- assignment11.Assignment13 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

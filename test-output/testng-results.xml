@@ -1,117 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="780" started-at="2023-02-10T22:58:33Z" finished-at="2023-02-10T22:58:33Z">
+  <suite name="Default suite" duration-ms="48026" started-at="2023-02-22T19:52:52Z" finished-at="2023-02-22T19:53:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="780" started-at="2023-02-10T22:58:33Z" finished-at="2023-02-10T22:58:33Z">
-      <class name="assignment11.SampleTestDDT">
-        <test-method status="PASS" signature="sample(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:assignment11.SampleTestDDT@73846619]" name="sample" duration-ms="8" started-at="2023-02-10T22:58:33Z" data-provider="Sample" finished-at="2023-02-10T22:58:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kritika]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[khurana]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[usin]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[12.0]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="48026" started-at="2023-02-22T19:52:52Z" finished-at="2023-02-22T19:53:40Z">
+      <class name="assignment11.Assignment13">
+        <test-method status="PASS" signature="setup()[pri:0, instance:assignment11.Assignment13@55d56113]" name="setup" is-config="true" duration-ms="5033" started-at="2023-02-22T19:52:52Z" finished-at="2023-02-22T19:52:57Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method status="PASS" signature="sample(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:assignment11.SampleTestDDT@73846619]" name="sample" duration-ms="1" started-at="2023-02-10T22:58:33Z" data-provider="Sample" finished-at="2023-02-10T22:58:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[amyra]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[khera]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[usa]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[122.0]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:assignment11.Assignment13@55d56113]" name="Login" duration-ms="5451" started-at="2023-02-22T19:52:57Z" finished-at="2023-02-22T19:53:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method status="PASS" signature="sample(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:assignment11.SampleTestDDT@73846619]" name="sample" duration-ms="2" started-at="2023-02-10T22:58:33Z" data-provider="Sample" finished-at="2023-02-10T22:58:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[rajeev]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[khera]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[usa]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="CreateCourse()[pri:2, instance:assignment11.Assignment13@55d56113]" name="CreateCourse" duration-ms="5940" started-at="2023-02-22T19:53:02Z" finished-at="2023-02-22T19:53:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-        <test-method status="PASS" signature="sample(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:assignment11.SampleTestDDT@73846619]" name="sample" duration-ms="2" started-at="2023-02-10T22:58:33Z" data-provider="Sample" finished-at="2023-02-10T22:58:33Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shubham]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[khurana]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[india]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[121.0]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- CreateCourse -->
+        <test-method status="PASS" signature="Delete()[pri:3, instance:assignment11.Assignment13@55d56113]" name="Delete" duration-ms="30249" started-at="2023-02-22T19:53:08Z" finished-at="2023-02-22T19:53:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sample -->
-      </class> <!-- assignment11.SampleTestDDT -->
+        </test-method> <!-- Delete -->
+        <test-method status="PASS" signature="logout()[pri:4, instance:assignment11.Assignment13@55d56113]" name="logout" duration-ms="469" started-at="2023-02-22T19:53:39Z" finished-at="2023-02-22T19:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDown()[pri:5, instance:assignment11.Assignment13@55d56113]" name="tearDown" duration-ms="829" started-at="2023-02-22T19:53:39Z" finished-at="2023-02-22T19:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- assignment11.Assignment13 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
